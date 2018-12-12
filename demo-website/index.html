@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a href="#"><img class="navbar-logo" src="img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home</a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+        </div>
+      </div>
+  </nav>
+
+
+  <!--Image Slider JS -->
+  <div class="slider-wrap">
+    <i class="fas fa-caret-left arrow-left arrow"></i>
+    <div id="slider">
+      <div class="slide slide1">
+        <div class="slide-content">
+        </div>
+      </div>
+      <div class="slide slide2">
+        <div class="slide-content">
+        </div>
+      </div>
+    </div>
+    <i class="fas fa-caret-right arrow-right arrow"></i>
+  </div>
+
+
+  <!--Welcome Message-->
+  <div class="container-fluid jumbotron">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Welcome to Volkswagon</h3>
+        <p>Welcome to Volkswagon</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Popular Models-->
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-sm-12">
+        <h2>Popular Models</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3 text-center model">
+        <a href="#" class="car-model-links">
+          <img src="img/up.png" class="vw-up">
+          <p><b>Up!</p></b>
+        </a>
+          <p>from £9,000</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 text-center model">
+        <a href="#" class="car-model-links">
+          <img src="img/polo.png" class="vw-up">
+          <p><b>Polo</p></b>
+        </a>
+          <p>from £9,000</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 text-center model">
+        <a href="#" class="car-model-links">
+          <img src="img/golf.png" class="vw-up">
+          <p><b>Golf</p></b>
+        </a>
+          <p>from £9,000</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 text-center model">
+        <img src="img/troc.png" class="vw-up">
+        <p><b>T-Roc</p></b>
+        <p>from £9,000</p>
+      </div>
+    </div>
+  </div>
+
+<script src="main.js"></script>
+</body>
+</html>
