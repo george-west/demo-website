@@ -49,6 +49,3 @@ arrowRight.addEventListener('click', function() {
 
 startSlide();
 // End of Image Slider
-
-
-//

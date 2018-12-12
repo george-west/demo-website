@@ -1,3 +1,11 @@
+.wrapper {
+  max-width: 1300px;
+}
+
+.padding {
+  padding: 1rem;
+}
+
 .navbar-logo {
   width: 55px;
   height: 55px;
@@ -16,7 +24,7 @@ a.car-model-links {
 .model:hover {
   text-decoration: underline;
   color: grey;
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid #1E90FF;
   background-color: #eee;
 }
 
@@ -30,7 +38,7 @@ a.car-model-links {
 
 .slider-wrap {
   position: relative;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .slide {
@@ -39,14 +47,14 @@ a.car-model-links {
   background-repeat: no-repeat;
 }
 
-.slide1 { background-image: url('img/slide1.jpg');}
-.slide2 { background-image: url('img/slide2.jpg');}
+.slide1 { background-image: url('img/slider-images/slide1.jpg');}
+.slide2 { background-image: url('img/slider-images/slide2.jpg');}
 
 .arrow {
   cursor: pointer;
   position: absolute;
-  font-size: 40px;
-  color: black;
+  font-size: 60px;
+  color: white;
   top: 50%;
   margin-top: -30px;
   width: 0;
@@ -61,4 +69,50 @@ a.car-model-links {
 .arrow-right {
   margin-right: 45px;
   right: 0;
+}
+
+.new-cars, .used-cars {
+  background-color: #D5FFFF;
+  padding: 3.5rem;
+}
+
+.new-cars:hover, .used-cars:hover {
+  background-color: #1E90FF;
+  cursor: pointer;
+  color: white;
+}
+
+.arrow-click {
+  font-size: 20px;
+}
+
+.car-advert {
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+img.car-advert-image {
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
+
+.top-left {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: black;
+}
+
+.options-menu {
+  background-color: #2e2e2e;
+  padding: 2.5rem;
+  color: white;
+}
+
+.options-menu:hover {
+  background-color: #666;
+  cursor: pointer;
+  color: white;
 }
